@@ -2,7 +2,7 @@
 
 ## 中文说明
 
-这是论文《A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow》的参考代码、冻结结果与复现环境。
+这是论文《A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow》的参考代码、结果与复现环境。
 
 ### 这篇论文在做什么
 
@@ -18,7 +18,7 @@
 
 ```text
 ├── nolab/           # 共享代码库
-├── script/          # 冻结的实验脚本
+├── script/          # 实验脚本
 ├── environment.yml  # conda 环境
 ├── requirements.txt # pip 依赖
 └── README.md

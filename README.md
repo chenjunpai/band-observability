@@ -1,8 +1,8 @@
 # A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow
 
-## 中文说明（全文）
+## 中文说明
 
-本仓库是论文《A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow》的参考代码、冻结结果与复现环境。
+这是论文《A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow》的参考代码、冻结结果与复现环境。
 
 ### 这篇论文在做什么
 
@@ -51,9 +51,6 @@ python script/41_stripe_nyquist_v3.py    # 固定传感器数量的条纹 Nyquis
 - 固定 `n = 784`、`T = 8` 的 22 行阶梯中，没有任何违反必要性的反例；阈值随黏性从 `9 → 11 → 15`。
 - nudging 与 LETKF 的速率对比：`1.21` vs `2.60`，而 nudging 只有其 1/32 的求解器成本。
 
-### 许可证
-
-MIT。
 
 ---
 

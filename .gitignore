@@ -1,0 +1,17 @@
+# generated data and checkpoints (large)
+truths/
+exp14/data/
+exp14/ckpt/
+*.npy
+*.pt
+*.pyc
+__pycache__/
+
+# raw experiment outputs (see RESULTS.md for the numbers)
+results/
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+{
+  "train": {
+    "file": "truth_traj.npy",
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "val": {
+    "file": "val_traj.npy",
+    "seeds": [
+      1000
+    ]
+  },
+  "test": {
+    "file": "test_traj.npy",
+    "seeds": [
+      2000
+    ]
+  },
+  "params": {
+    "N": 128,
+    "nu": 0.005,
+    "spin": 30.0,
+    "decorr": 4.0,
+    "steps": 4200,
+    "dtype": "float32",
+    "dt": 0.002
+  }
+}

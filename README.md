@@ -57,7 +57,7 @@ MIT.
 
 ## 中文说明
 
-这是论文《A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow》的参考代码、结果与复现环境。
+这是论文《Band observability and sensor placement for continuous data assimilation of a two-dimensional Kolmogorov flow》的参考代码、结果与复现环境。
 
 ### 这篇论文在做什么
 

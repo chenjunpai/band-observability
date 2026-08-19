@@ -1,5 +1,7 @@
 # Band observability and sensor placement for continuous data assimilation of a two-dimensional Kolmogorov flow
 
+Zenodo website: nhttps://zenodo.org/records/22006201
+
 Reference code for the paper. Continuous data assimilation by nudging is known to converge when *enough*
 observations are supplied, but network design is a question of *placement*; we show the controlling quantity
 is the observability of the **determining band** `δ_K` — not the sensor count and not the coverage radius — and
@@ -59,15 +61,13 @@ MIT.
 
 这是论文《Band observability and sensor placement for continuous data assimilation of a two-dimensional Kolmogorov flow》的参考代码、结果与复现环境。
 
+Zenodo 链接: nhttps://zenodo.org/records/22006201
+
 ### 这篇论文在做什么
 
 连续资料同化中的 nudging 方法，已经知道：当观测“足够多”时，模型会指数地同步到真值。但实际问题不只是“够不够多”，而是“放在哪里”。这篇论文说明：真正决定网络好坏的量是**决定波段的可观测性 δ_K**，而不是传感器数量，也不是覆盖半径 h。
 
-对于周期性条纹采样，这个机制还是**可以证明的**：如果只有 R 条等距的传感器行，那么在决定波段上，观测算子会留下一个维数为
-
-`(2K+1)(2K+1−R)`
-
-的零空间；这个零空间被 Shepard 插值算子精确地闭合。因此传感器间距必须满足 Nyquist 式的阈值。
+对于周期性条纹采样，这个机制还是**可以证明的**：如果只有 R 条等距的传感器行，那么在决定波段上，观测算子会留下一个维数为 `(2K+1)(2K+1−R)` 的零空间。这个零空间被 Shepard 插值算子精确地闭合，因此传感器间距必须满足 Nyquist 式的阈值。
 
 ### 目录结构
 

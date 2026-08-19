@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: Chen
     given-names: Junpai
-title: "A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow"
+title: "Band observability and sensor placement for continuous data assimilation of a two-dimensional Kolmogorov flow"
 version: 5.3
 date-released: 2026-08-19
 license: MIT

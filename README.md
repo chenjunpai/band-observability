@@ -1,4 +1,4 @@
-# A band-observability criterion for sensor placement in continuous data assimilation of a chaotic two-dimensional flow
+# Band observability and sensor placement for continuous data assimilation of a two-dimensional Kolmogorov flow
 
 Reference code for the paper. Continuous data assimilation by nudging is known to converge when *enough*
 observations are supplied, but network design is a question of *placement*; we show the controlling quantity
@@ -8,7 +8,7 @@ that for periodic sampling the threshold is provable: `R` equidistant sensor row
 
 ## Layout
 
-```
+```arduino
 ├── nolab/           # shared library
 ├── script/          # frozen experiment scripts
 ├── environment.yml  # conda environment
